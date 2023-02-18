@@ -38,6 +38,11 @@
    
    Next I created Budgets and the Billing Alarms using CLI :
    ![image](https://user-images.githubusercontent.com/26598534/219878092-890495d6-6b42-4d34-9695-f7a2ffb7c501.png)
+   
+   Then confirmed they were created correctly on the UI :
+   ![image](https://user-images.githubusercontent.com/26598534/219878193-66e8e7a9-7537-446e-b2b7-c3b8443236eb.png)
+   ![image](https://user-images.githubusercontent.com/26598534/219878196-028dfa38-7d24-4e74-bf8d-d00f1d532cd8.png)
+
 
 
 
