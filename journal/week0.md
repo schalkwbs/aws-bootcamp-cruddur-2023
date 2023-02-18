@@ -18,5 +18,5 @@
    IAM user set up with Adminstrator and Billing access, along with MFA :![image](https://user-images.githubusercontent.com/26598534/219872864-89e0c60a-ba3a-4ffa-9128-8e4a96001dde.png)
    
   ### Install AWS CLI
-   Opened AWS CLI, enabled autoprompt using command </br> ```aws --cli-auto-prompt```![image](https://user-images.githubusercontent.com/26598534/219873841-282e12d2-31fd-4c7a-b4ea-d6f6bf926bd6.png)
+   Opened AWS CLI, enabled autoprompt using command </br> ```aws --cli-auto-prompt``` <\br> ![image](https://user-images.githubusercontent.com/26598534/219873841-282e12d2-31fd-4c7a-b4ea-d6f6bf926bd6.png)
 
