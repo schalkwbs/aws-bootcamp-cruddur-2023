@@ -1,5 +1,10 @@
 # Week 0 — Billing and Architecture
 
+ ### First, Napkin diagram!
+ ![Napkin](https://user-images.githubusercontent.com/26598534/219878370-7dcf8b4e-2bf5-4f96-93c6-a3e6ab0c765c.jpg)
+
+
+
  ### Create GitHub repo
    Create new repo from template [ExamProCo/aws-bootcamp-cruddur-2023](https://github.com/ExamProCo/aws-bootcamp-cruddur-2023)
    New repo reachable at [schalkwbs/aws-bootcamp-cruddur-2023](https://github.com/schalkwbs/aws-bootcamp-cruddur-2023)
