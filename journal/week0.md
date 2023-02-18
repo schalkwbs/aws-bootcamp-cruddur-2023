@@ -14,3 +14,5 @@
  ### Destroy root account creds, Set MFA, IAM role
    Did most of these before the Week 0 livestream, so will just document the root account destruction and proof of new IAM account that will be used :
     "Look ma! No root user actice access keys!"![image](https://user-images.githubusercontent.com/26598534/219872666-c6fc59ae-8064-4fba-a93a-69717a9739f0.png)
+    </br>
+   IAM user set up with Adminstrator and Billing access, along with MFA :![image](https://user-images.githubusercontent.com/26598534/219872864-89e0c60a-ba3a-4ffa-9128-8e4a96001dde.png)
