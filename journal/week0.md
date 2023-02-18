@@ -18,5 +18,25 @@
    IAM user set up with Adminstrator and Billing access, along with MFA :![image](https://user-images.githubusercontent.com/26598534/219872864-89e0c60a-ba3a-4ffa-9128-8e4a96001dde.png)
    
   ### Install AWS CLI
-   Opened AWS CLI, enabled autoprompt using command </br> ```aws --cli-auto-prompt``` <\br> ![image](https://user-images.githubusercontent.com/26598534/219873841-282e12d2-31fd-4c7a-b4ea-d6f6bf926bd6.png)
+   Opened AWS CLI, enabled autoprompt using command </br> ```aws --cli-auto-prompt```
+   </br>
+   ![image](https://user-images.githubusercontent.com/26598534/219873841-282e12d2-31fd-4c7a-b4ea-d6f6bf926bd6.png)
+   
+   Installed AWS CLI on GitPod using the following commands : </br>
+    ```curl "https://awscli.amazonaws.com/awscli-exe-linux-x86_64.zip" -o "awscliv2.zip"```
+    </br>
+    ```unzip awscliv2.zip```
+    </br>
+    ```sudo ./aws/install```
+    </br>
+    ![image](https://user-images.githubusercontent.com/26598534/219874828-f9a2a125-bcb6-48e1-96ee-230c9edc0703.png)
+    
+   
+   Tried to determine active credentials and got the following error as the variables have not been set : ![image](https://user-images.githubusercontent.com/26598534/219875408-ec199d5f-3660-427e-bef7-a2adeca7ee3e.png)
+    
+   Generated an Access key for the env var text file on Gitpod : ![image](https://user-images.githubusercontent.com/26598534/219875457-d2a0be31-92c2-41b2-9da6-c09975630893.png)
+    
+   Specified the values in the text file : </br>![image](https://user-images.githubusercontent.com/26598534/219875616-59fad521-237c-4de8-a65e-dd2b2049faab.png)
+
+   Confirmed credentials on GitPod :  </br> ![image](https://user-images.githubusercontent.com/26598534/219875773-899fc07d-943b-45f1-92c1-0816f509791c.png)
 
