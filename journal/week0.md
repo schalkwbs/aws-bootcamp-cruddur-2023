@@ -3,7 +3,20 @@
  ### First, Napkin diagram!
  ![Napkin](https://user-images.githubusercontent.com/26598534/219878370-7dcf8b4e-2bf5-4f96-93c6-a3e6ab0c765c.jpg)
 
+ ### Second, the actual Lucid Charts diagrams :
+ 
+ Conceptual Diagram :
+ 
+ https://lucid.app/lucidchart/80e6ed26-236a-46c4-9bb9-946b5ca2d012/edit?viewport_loc=76%2C-130%2C2044%2C1562%2C0_0&invitationId=inv_4cbff7e1-d7e5-446e-bcf4-2e497ec26018
+ ![image](https://user-images.githubusercontent.com/26598534/220166735-08ac16f0-e708-4930-9769-d6d8c542baa1.png)
+ 
+ Architectual Diagram :
+ 
+ https://lucid.app/lucidchart/0b06732d-7a3c-4848-ab1c-2cdfe2ba6c8e/edit?viewport_loc=32%2C-2530%2C2044%2C1562%2C0_0&invitationId=inv_981fff32-97f9-4fc3-b861-d4730df423d0
+ ![image](https://user-images.githubusercontent.com/26598534/220167420-c9da0e2d-a969-4c41-87e8-4a3bed985b81.png)
 
+ 
+ 
 
  ### Create GitHub repo
    Create new repo from template [ExamProCo/aws-bootcamp-cruddur-2023](https://github.com/ExamProCo/aws-bootcamp-cruddur-2023)
