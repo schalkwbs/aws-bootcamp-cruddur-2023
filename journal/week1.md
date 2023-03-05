@@ -3,7 +3,7 @@
 ### Containerize Application
 Test Python without Docker
 
-``` 
+```sh 
 cd backend-flask
 export FRONTEND_URL="*"
 export BACKEND_URL="*"
@@ -47,3 +47,45 @@ https://github.com/schalkwbs/aws-bootcamp-cruddur-2023/commit/c8d959bb64b55ba19c
 ### Added minor Notifications page fixes 
 
 https://github.com/schalkwbs/aws-bootcamp-cruddur-2023/commit/afe211da141d2e61bd319533baa3899be07e0438
+
+### Run DynamoDB local container and ensure it works
+
+![image](https://user-images.githubusercontent.com/26598534/222986682-94bd6956-2c6e-4ce5-98c5-1315601af1d8.png)
+![image](https://user-images.githubusercontent.com/26598534/222986689-c5ead484-034c-48b5-849b-d7390a105934.png)
+
+### Run Postgres Container and ensure it works
+
+Install Postgres client on Gitpod
+
+```sh
+  - name: postgres
+    init: |
+      curl -fsSL https://www.postgresql.org/media/keys/ACCC4CF8.asc|sudo gpg --dearmor -o /etc/apt/trusted.gpg.d/postgresql.gpg
+      echo "deb http://apt.postgresql.org/pub/repos/apt/ `lsb_release -cs`-pgdg main" |sudo tee  /etc/apt/sources.list.d/pgdg.list
+      sudo apt update
+      sudo apt install -y postgresql-client-13 libpq-dev
+ ```
+Ensure Postgres container works
+
+```sh
+gitpod /workspace/aws-bootcamp-cruddur-2023 (main) $ psql -h localhost -U postgres
+Password for user postgres: 
+psql (13.10 (Ubuntu 13.10-1.pgdg20.04+1))
+Type "help" for help.
+
+postgres=# \l
+                                 List of databases
+   Name    |  Owner   | Encoding |  Collate   |   Ctype    |   Access privileges   
+-----------+----------+----------+------------+------------+-----------------------
+ postgres  | postgres | UTF8     | en_US.utf8 | en_US.utf8 | 
+ template0 | postgres | UTF8     | en_US.utf8 | en_US.utf8 | =c/postgres          +
+           |          |          |            |            | postgres=CTc/postgres
+ template1 | postgres | UTF8     | en_US.utf8 | en_US.utf8 | =c/postgres          +
+           |          |          |            |            | postgres=CTc/postgres
+(3 rows)
+
+postgres=# 
+```
+![image](https://user-images.githubusercontent.com/26598534/222987190-47a6e2b5-e58b-4938-9123-ac2013056ce0.png)
+![image](https://user-images.githubusercontent.com/26598534/222987745-5c726dcf-8b4a-4b44-a477-4163d0ffaafe.png)
+
